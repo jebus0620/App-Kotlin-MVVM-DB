@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">AppExchangeRate</string>
+
+    <!-- CustomDialog -->
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+
+    <!-- ExchangeRateActivity -->
+    <string name="tu_envias">Tú envias</string>
+    <string name="tu_recibes">Tú recibes</string>
+    <string name="compra">Compra</string>
+    <string name="venta">Venta</string>
+    <string name="empieza_tu_operacion">Empieza tu operación</string>
+    <string name="dolares">Dólares</string>
+    <string name="soles">Soles</string>
+
 </resources>

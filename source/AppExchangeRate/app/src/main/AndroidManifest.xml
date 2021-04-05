@@ -9,9 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppExchangeRate">
-        <activity android:name=".view.activity.ListCurrencyActivity"></activity>
-        <activity android:name=".view.activity.ExchangeRateActivity" />
-        <activity android:name=".view.activity.MainActivity">
+        <activity
+            android:name=".view.activity.ListCurrencyActivity"
+            android:screenOrientation="sensorPortrait" />
+        <activity android:name=".view.activity.ExchangeRateActivity"
+            android:screenOrientation="sensorPortrait"/>
+        <activity android:name=".view.activity.MainActivity"
+            android:screenOrientation="sensorPortrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

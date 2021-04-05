@@ -29,7 +29,6 @@ class MainActivity : BaseActivity() {
         initUI()
         viewModelObserver()
 
-        //loadData()
     }
 
     private fun initUI(){
